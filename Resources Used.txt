@@ -1,0 +1,6 @@
+/* RESOURCES
+ * 1. http://paulirish.com/2011/requestanimationframe-for-smart-animating/
+ * 2. http://net.tutsplus.com/tutorials/javascript-ajax/prototypes-in-javascript-what-you-need-to-know/
+ * 3. http://phrogz.net/js/classes/OOPinJS.html
+ * 4. http://www.phpied.com/3-ways-to-define-a-javascript-class/
+ */
