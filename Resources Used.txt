@@ -5,4 +5,12 @@
  * 4. http://www.kontain.com/fi/entries/94636/ (quote on performace)
  * 5. http://code.bytespider.eu/post/21438674255/dirty-rectangles
  * 6. http://www.html5rocks.com/en/tutorials/canvas/performance/
+ * 7. http://paulirish.com/2011/requestanimationframe-for-smart-animating/
+ * 8. http://net.tutsplus.com/tutorials/javascript-ajax/prototypes-in-javascript-what-you-need-to-know/
+ * 9. http://phrogz.net/js/classes/OOPinJS.html
+ * 10. http://www.phpied.com/3-ways-to-define-a-javascript-class/
+ * 11. http://devmag.org.za/2009/04/13/basic-collision-detection-in-2d-part-1/
+
+ * 12. http://gamedev.tutsplus.com/tutorials/implementation/quick-tip-use-quadtrees-to-detect-likely-collisions-in-2d-space/
+
  */
