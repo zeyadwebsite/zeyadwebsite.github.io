@@ -12,5 +12,7 @@
  * 11. http://devmag.org.za/2009/04/13/basic-collision-detection-in-2d-part-1/
 
  * 12. http://gamedev.tutsplus.com/tutorials/implementation/quick-tip-use-quadtrees-to-detect-likely-collisions-in-2d-space/
-
+ * 13. http://www.w3schools.com/html5/html5_ref_av_dom.asp
+ 
+ * 14. http://www.superflashbros.net/as3sfxr/
  */
