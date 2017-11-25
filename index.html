@@ -1,76 +1,62 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Space Shooter</title>
-		<style>
-			canvas {
-				position: absolute;
-				top: 0px;
-				left: 0px;
-				background: transparent;
-			}
-			#background {
-				z-index: -2;
-			}
-			#main {
-				z-index: -1;
-			}
-			#ship {
-				z-index: 0;
-			}
-			.score {
-				position: absolute;
-				top: 5px;
-				left: 480px;
-				color: #FF7F00;
-				font-family: Helvetica, sans-serif;
-				cursor: default;
-			}
-			.game-over {
-				position: absolute;
-				top: 100px;
-				left: 210px;
-				color: #FF7F00;
-				font-family: Helvetica, sans-serif;
-				font-size: 30px;
-				cursor: default;
-				display: none;
-			}
-			.game-over span {
-				font-size: 20px;
-				cursor: pointer;
-				position: relative;
-				left: 50px;
-			}
-			.game-over span:hover {
-				color: #FFD700;
-			}
-			.loading {
-				position: absolute;
-				top: 100px;
-				left: 210px;
-				color: #FF7F00;
-				font-family: Helvetica, sans-serif;
-				font-size: 30px;
-				cursor: default;
-			}
-		</style>
-	</head>
-	<body>
-		<!-- The canvas for the panning background -->
-		<canvas id="background" width="600" height="360">
-			Your browser does not support canvas. Please try again with a different browser.
-		</canvas>
-		<!-- The canvas for all enemy ships and bullets -->
-		<canvas id="main" width="600" height="360">
-		</canvas>
-		<!-- The canvas the ship uses (can only move up
-         one forth the screen. -->
-		<canvas id="ship" width="600" height="360">
-		</canvas>
-		<div class="score">SCORE: <span id="score"></span></div>
-		<div class="game-over" id="game-over">GAME OVER<p><span onclick="game.restart()">Restart</span></p></div>
-		<div class="loading" id="loading">LOADING...<p>Please wait</p></div>
-		<script src="SpaceShooter.js"></script>
-	</body>
+<head>
+  <meta charset="UTF-8">
+  <title>Space Shooting</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" type="image/png" href="/favicon.png">
+</head>
+
+<body>
+<div class="wrapper">
+	<div class="heading">
+		<h1>Space Shooting</h1>
+	</div>
+	<div class="navigation">
+		<ul>
+			<li><a href="#">Space Shooter</li>
+			<li><a href="#">Other Projects</li>
+			<li><a href="#">Contact</li>
+		</ul>
+	</div>
+	<div class="content">
+				<span class="title">WELCOME</span>
+		<p> I am happy that you have visited this website. I hope you enjoy the 'Space Shooting' game that I have created. If you have any suggestions to improve it please let me know. Thanks and have fun
+		</p>
+	</div>
+	
+	<div class="footer">
+		This website is developed by Zeyad Ghulam
+	</div>
+
+
+</div>
+
+  <div id="game">
+  <!-- Multiple canvases stacked by z-index: background: 2; main: -1; ship: 0 -->
+
+   <!-- Background: Panning starfield & Error message for older browsers.  -->
+   <canvas id="background" width="600" height="450">
+     Your browswer does not support HTML5 Canvas.
+     Please try again with a different browser.
+   </canvas>
+
+   <!-- Main: For enemy ships and bullets -->
+   <canvas id="main" width="600" height="450">
+   </canvas>
+
+   <!-- Ship: (lower quarter of the field) -->
+   <canvas id="ship" width="600" height="450">
+   </canvas>
+
+   <div class="score">score: <span id="score"></span></div>
+
+   <div class="game-over" id="game-over"> <br> Good Luck !! <br> Have Fun !!
+    <div id="restart-button">click here to start the game</div>
+   </div>
+  </div>
+
+  <script src="compiled.js"></script>
+</body>
 </html>
+
