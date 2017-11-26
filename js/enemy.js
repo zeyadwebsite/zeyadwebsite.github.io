@@ -37,7 +37,7 @@ function Enemy() {
       this.speedX = -this.speed;
     }
     else if (this.y >= this.bottomEdge) {
-      this.speed  = 1.0;
+      this.speed  = 1.5;
       this.speedY = 0;
       this.y      -= 5;
       this.speedX = -this.speed;

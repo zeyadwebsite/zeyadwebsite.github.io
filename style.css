@@ -4,19 +4,19 @@
 
 .wrapper{
 	width: 1200px;
-	background: rgb(0);
+	//background: black;
 	margin: 0 auto 0 auto;
 }
 
 .heading {
 	height: 100px;
-	background: rgb(255,99,10);
+	background: rgb(0);
 	padding: 20px;
 	text-align: center;
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	font-size: 25pt;
-	color: orange;
-	text-shadow: 0.2em 0.1em black;
+	color: white;
+	text-shadow: 0.3em 0.3em rgb(2,38,109);
 }
 
 p {
@@ -29,7 +29,8 @@ p {
 .title{
 	font-family: serif;
 	font-size: 18pt;
-	background: black;
+	background: brown;
+	text-align: center;
 	color: white;
 	padding: 10px;
 	display: block;
@@ -38,14 +39,14 @@ p {
 
 .navigation {
 	height: 50px;
-	background: rgb(218,165,32);
+	background: brown;
 	margin-top: 5px;
 	margin-bottom: 5px;
 	border-radius: 20px;
 	padding: 5px;
 	font-family: impact;
 	font-size: 16pt;
-	border: 1px solid black;
+	border: 2px solid black;
 	
 }
  .navigation ul {
@@ -71,7 +72,7 @@ p {
  
  
 .content1 {
-	margin-top: 10px;
+	margin-top: 50px;
 	min-height:200px;
 	background:#ddd;
 	width: 260px;
@@ -82,7 +83,7 @@ p {
 }
 
 .content2 {
-	margin-top: 10px;
+	margin-top: 50px;
 	min-height:200px;
 	background:#ddd;
 	width: 260px;
@@ -92,11 +93,40 @@ p {
 	padding: 10px;
 }
 
+.arrowKeys {
+font-family: serif;
+	font-size: 14pt;
+	margin-top: 10px;
+	background: rgb(112,76,60);;
+	text-align: center;
+	color: white;
+	padding: 10px;
+	display: block;
+	
+}
+
+.arrowKeys img {
+	border: 1px solid;
+	
+}
+
+.spaceBar {
+font-family: serif;
+	font-size: 14pt;
+	margin-top: 10px;
+	background: rgb(112,76,60);;
+	text-align: center;
+	color: white;
+	padding: 10px;
+	display: block;	
+	
+}
+
 	
 body {
   font-family: Helvetica, Arial, sans-serif;
   background-color: Grey;
-  background-image: url("background.jpg")
+  background-image: url("background8.jpg")
 
 }
 
@@ -143,13 +173,14 @@ canvas {
   top: 100px;
   left: 0px;
   text-align: center;
-  color: #FF7F00;
+  color: rgb(255,255,255);
   font-size: 70px;
   cursor: crosshair;
   display: inline;
 	width: 600px;
 	height: 450px;
-	background: black;
+	//background: rgb(0);
+	background-image: url("startGame3.jpg")
 
 }
 

@@ -5,11 +5,11 @@
  */
 
 function Ship() {
-  this.speed      = 1;
+  this.speed      = 3;
   this.bulletPool = new Pool(30);
   this.bulletPool.init("bullet");
 
-  var fireRate = 5;
+  var fireRate = 15;
   var counter  = 0;
 
   this.collidableWith = "enemyBullet";

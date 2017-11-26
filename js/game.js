@@ -138,9 +138,7 @@ function Game () {
     } else {
       return false;
     }
-	
   };
-  
 
   // spawns a new wave of enemies
   this.spawnWave = function() {

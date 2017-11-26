@@ -70,7 +70,7 @@ function Drawable () {
  * creates illusion of moving by padding the image
  */
 function Background () {
-  this.speed = 0.5; // redefined for panning
+  this.speed = 1; // redefined for panning
 
   this.draw = function() {
     // pan background
